@@ -1,0 +1,169 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header-mainTitle{
+   margin-right: 50px;
+}
+.nav-header-list{
+    justify-content: space-between;
+}
+.carousel-container-top{
+    margin-top: 80px;
+}
+.img-carousel{
+    width: 100%;
+}
+.fellows-title{
+    font-size: 20px;
+}
+.fellow_nav_box{
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/***** Card Hover effect *****/
+.container__info{
+    position: absolute;
+    background-color: #00000096;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.fellow-dead{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 40%;
+}
+.container__info p{
+    color: white;
+    margin-bottom: 0;
+}
+
+.fellow-img{
+    border: 1px solid black;
+    margin-top: 15px;
+    opacity: 0.4;
+}
+
+.fellow-img:hover ~ .container__info{
+    display: none;
+}
+.fellow-img:hover ~ .fellow-dead{
+    display: none;
+}
+.fellow-img:hover{
+    opacity: 1;
+}
+
+.reward_img{
+   width: 100%; 
+   align-self: center;
+}
+.reward-section{
+    text-align: center;
+}
+
+.reward-section h2, .reward-section p{
+    text-align: left;
+}
+
+.reward_button{
+    margin-bottom: 20px;
+}
+.media{
+    margin-bottom: 20px;
+}
+.media-body h3{
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.media-body p{
+    margin-bottom: 0;
+}
+.media-buttom{
+    width: 50%;
+    font-size: 10px;
+    font-weight: 900;
+    margin-top: 0;
+    border-radius: 5px;
+}
+
+.ring-table{
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.ring-hearder-card{
+    background-color: #d8d8d8;
+}
+
+.ring-img{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ring__WhyContainer{
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.ring-card-awesome{
+    display: flex;
+    flex-direction: row;
+}
+
+.join__container{
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100%
+}
+.join__container img{
+    margin-top: 20px;
+}
+.join__container p{
+    margin-top: 20px;
+    text-align: justify;
+}
+.join-button{
+    margin-top: 20px;
+}
+footer{
+
+    background-color: grey;
+    width: 100%;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+}
+
+.footer__list{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__list ul li{
+    list-style: none;
+}
+
+.footer-link{
+    text-align: center;   
+}
